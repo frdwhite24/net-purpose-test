@@ -37,7 +37,6 @@ const checkTeamPoints = (division: Team[]) => {
   const invalidPoints: Team[] = []
   division.forEach(team => {
     if (team.points < 0) {
-      console.error
       invalidPoints.push(team)
     }
   })
