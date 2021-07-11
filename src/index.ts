@@ -65,7 +65,7 @@ const getMovingTeams = (division: Team[], n: number): Results => {
   }
 }
 
-const formatResults = (results: Results): string => {
+const getResultsString = (results: Results): string => {
   return `Promote:
 ${getTeamNames(results.promote)}
 
@@ -82,6 +82,6 @@ export const getResults = (division: Team[], n: number) => {
 
   sortDescending(division)
   const results: Results = getMovingTeams(division, n)
-  return formatResults(results)
+  return getResultsString(results)
 };
 
