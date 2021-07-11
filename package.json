@@ -1,0 +1,20 @@
+{
+  "name": "typescript-tdd",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for running TypeScript tests with Jest",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": {
+    "name": "Matt Radbourne",
+    "url": "https://radbourne.net/"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.1",
+    "ts-jest": "^27.0.0",
+    "typescript": "^4.2.4"
+  }
+}
